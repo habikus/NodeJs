@@ -8,5 +8,6 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Örnek uygulama dinleniyor inşallah. http://localhost:${port}`)
+  console.log("Örnek uygulama dinleniyor inşallah." +port);
 })
+ 
